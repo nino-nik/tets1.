@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        h2 {
+            font-size: 28px;
+            color: #222;
+            text-align: center;
+            position: relative;
+            left: -550px;
+            margin-bottom: 10px;
+        }
+        .topics {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            overflow-x: auto;
+            padding: 10px;
+        }
+        .card {
+            background: white;
+            width: 150px; 
+            height: 200px; 
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .card img {
+            width: 70px;
+            height: 70px;
+            opacity: 1.0;
+            margin: auto;
+        }
+        .card h3 {
+            font-size: 22px;
+            color: #333;
+            margin: 25px 0 25px 0;
+        }
+        .card button {
+            background-color: #33d4c4;
+            color: black; 
+            font-weight: bold; 
+            border: none;
+            padding: 8px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+        }
+        .card button:hover {
+            background-color: #2bb3a7;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Topics</h2>
+    <div class="topics">
+        <div class="card">
+            <img src="https://i.ibb.co/sJXqPCQ0/lingerie-underwear.png" alt="Lingerie">
+            <h3>Lingerie</h3>
+            <button>View More</button>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/1YJQNHGL/dress.png" alt="Spring">
+            <h3>Spring</h3>
+            <button>View More</button>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/R4NSRvXv/chakra.png" alt="Yoga">
+            <h3>Yoga</h3>
+            <button>View More</button>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/81CNr6S/lipstick.png" alt="Glow">
+            <h3>Glow</h3>
+            <button>View More</button>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/vCK25jxZ/dress-wedding-dress.png" alt="Ensembles">
+            <h3>Ensembles</h3>
+            <button>View More</button>
+        </div>
+        <div class="card">
+            <img src="https://i.ibb.co/NRxHXkq/mask-theater.png" alt="Skin Care">
+            <h3>Skin Care</h3>
+            <button>View More</button>
+        </div>
+    </div>
+</div>
+
+</body>
+</html>
