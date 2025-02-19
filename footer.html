@@ -26,6 +26,9 @@
         .footer-logo {
             font-size: 24px;
             font-weight: bold;
+            display: flex;
+            flex-direction: column;
+            align-items: flex-start;
         }
         .footer-logo span {
             color: #26c6da;
@@ -37,16 +40,19 @@
             font-size: 20px;
         }
         .footer-bottom {
-            margin-top: 10px;
             font-size: 12px;
             color: #333;
+            align-self: flex-start;
         }
     </style>
 </head>
 <body>
     <footer class="footer">
         <div class="footer-content">
-            <div class="footer-logo">LUX <span>VENTUS</span></div>
+            <div class="footer-logo">
+                LUX <span>VENTUS</span>
+                <div class="footer-bottom">&copy; 2023 - Lux Ventus by Zine.E.Falouti</div>
+            </div>
             <div class="footer-social">
                 <span style="font-weight: bold;">Let’s Hang Out</span>
                 <a href="#">&#xf09a;</a> <!-- Facebook Icon -->
@@ -57,7 +63,6 @@
             </div>
         </div>
         <hr>
-        <div class="footer-bottom">&copy; 2023 - Lux Ventus by Zine.E.Falouti</div>
     </footer>
 </body>
 </html>
