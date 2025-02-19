@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="ka">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topics & Trending Section</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f8f8f8;
+            text-align: center;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            max-width: 1200px;
+            margin: 50px auto;
+            text-align: center;
+        }
+        .topics-container, .trending {
+            max-width: 1200px;
+            margin: auto;
+            text-align: center;
+        }
+        .topics h2, .trending h2 {
+            font-size: 28px;
+            color: #222;
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .topics {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            margin-top: 20px;
+            overflow-x: auto;
+            padding: 10px;
+        }
+        .topics-card, .trend-item {
+            background: white;
+            width: 150px;
+            height: 200px;
+            padding: 20px;
+            border-radius: 20px;
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+        .topics-card img, .trend-image img {
+            width: 70px;
+            height: 70px;
+            opacity: 1.0;
+            margin: auto;
+        }
+        .topics-card h3, .trend-content h3 {
+            font-size: 22px;
+            color: #333;
+            margin: 25px 0 25px 0;
+        }
+        .topics-card button {
+            background-color: #33d4c4;
+            color: black;
+            font-weight: bold;
+            border: none;
+            padding: 8px 10px;
+            border-radius: 10px;
+            cursor: pointer;
+            font-size: 14px;
+            width: 100%;
+        }
+        .topics-card button:hover {
+            background-color: #2bb3a7;
+        }
+        .trending {
+            text-align: center;
+            padding: 20px;
+        }
+        .trending-container {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+        }
+        .trend-item {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: left;
+        }
+        .trend-content {
+            padding: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <h2>Topics</h2>
+    <div class="topics">
+        <div class="topics-card">
+            <img src="https://i.ibb.co/sJXqPCQ0/lingerie-underwear.png" alt="Lingerie">
+            <h3>Lingerie</h3>
+            <button>View More</button>
+        </div>
+        <div class="topics-card">
+            <img src="https://i.ibb.co/1YJQNHGL/dress.png" alt="Spring">
+            <h3>Spring</h3>
+            <button>View More</button>
+        </div>
+        <div class="topics-card">
+            <img src="https://i.ibb.co/R4NSRvXv/chakra.png" alt="Yoga">
+            <h3>Yoga</h3>
+            <button>View More</button>
+        </div>
+        <div class="topics-card">
+            <img src="https://i.ibb.co/81CNr6S/lipstick.png" alt="Glow">
+            <h3>Glow</h3>
+            <button>View More</button>
+        </div>
+    </div>
+</div>
+
+<section class="trending">
+    <h2>Trending</h2>
+    <div class="trending-container">
+        <div class="trend-item">
+            <div class="trend-image">
+                <img src="https://s3-alpha-sig.figma.com/img/26ec/9f28/508fd56abb6f438644b5affaacba31d5" alt="Trend 1">
+            </div>
+            <div class="trend-content">
+                <h3>10 Things to help you with social stress.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet sapien fringilla, mattis mattis tellus.</p>
+                <a href="#" class="read-more">→ READ MORE</a>
+            </div>
+        </div>
+        <div class="trend-item">
+            <div class="trend-image">
+                <img src="https://s3-alpha-sig.figma.com/img/4134/4e31/cd3bff6a25d303a7cc4eb513fd67cfd4" alt="Trend 2">
+            </div>
+            <div class="trend-content">
+                <h3>The summer 2023 lineup is finally here.</h3>
+                <p>Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet sapien fringilla, mattis mattis tellus.</p>
+                <a href="#" class="read-more">→ READ MORE</a>
+            </div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
