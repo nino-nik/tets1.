@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <section class="trending">
+        <h2 style="text-align: center; position: relative; left: -350px; margin-bottom: 10px;">Trending</h2>
+        <div class="trending-container">
+            <div class="trend-item">
+                <div class="trend-image">
+                    <img src="https://s3-alpha-sig.figma.com/img/26ec/9f28/508fd56abb6f438644b5affaacba31d5?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=o0ysHGDsKA-H4AVDX5BbYJWtpbcgqu7u13lPGLcWMd-fazuObBc2vch9QnEiGAUvfSCvb2wuXJrUgLUgE0Mipw8T5eDpXL1srXMUbylj019sndSF2S6R-Dt3BXcIwYEJVjO2t8-sYzZtFiuhmd8k0PwmAbBY5QDkv~5XSkhWkZcAVlXKA~bRQLqcSGyGlqP7JX3N4aK48B9l~8EkJdICLZ~VnjN~mrFRkfPQMYDhquEY~KbS-t3YoHrrEg4v7ld0hbksg7eXSzwJ2V8iwi7Zp96ujdkTbNVd5czbguR1zW2e8lHHuOs-4VTMzrKUhd8MM82yrSW1MfMSSRrlNZIbDg__" alt="Trend 1">
+                    <span class="trend-tag">LIFESTYLE</span>
+                </div>
+                <div class="trend-content">
+                    <div class="trend-author" style="display: flex; justify-content: space-between; align-items: center; padding: 0 0px;">
+                        <div style="display: flex; align-items: center;">
+                            <img src="https://s3-alpha-sig.figma.com/img/1030/6da3/556f5faa4a8978e04d8cbef4c370209c?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=L9ZkeZeXF2ca5JwUlopaYeS8QX9MOocPi7Ms-01fP0arT3Y-9U2M~yvubpyomkSJ3GbZd1kl~N8Ex1vT9542gDNNJ0bwzibQ6ZGjxioZaOrJ6kdVsmkhYBmK0kF1m7XxaHXTH0PDWN-JuVNSZaFglBxwI7oU0Vka-rSHVMKKJHMf97eF0ihPRkvnISCtHIzhOWjLwn5mvGFuqkfQS8YsBE0xB~GbWmjIW8MShNiX9CWoVPDrlYvd9qDwISDQGpQNM132jQf6lda-DilSIGKncGNmQ2ljeuKpUTq78GXJzAjZMGk08YmTGcd-hyPH6RIo-yUDnTP0tzgphQyAuo7QzQ__" alt="Author">
+                            <span style="padding: 0 10px;">Mallory Reyn</span>
+                        </div>
+                        <span>April 14th, 2023</span>
+                    </div>
+                    <h3>10 Things to help you with social stress.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet sapien fringilla, mattis mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
+                    <a href="#" class="read-more">→ READ MORE</a>
+                </div>
+            </div>
+            <div class="trend-item">
+                <div class="trend-image">
+                    <img src="https://s3-alpha-sig.figma.com/img/4134/4e31/cd3bff6a25d303a7cc4eb513fd67cfd4?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=b5hyvhhK28iZD2zl1bDLnv2ZLRJeHBPOkYFkcaqBZT159scQ4muEXP0pgqKxqS6PhDoPhXheJqSiU3oSDj9kguPTqSqLE~EH25MtsVwS40C3SMLwpUDyMmxuPXbyHDz9jCViU7DO8EYIIFZTvZkNaTqKdhOuMpt-md9sMlHSrO1xhRExOWLVn6DZLwn49D8ldektskVHw5GpEuPURzACgQTsmLOoinf1lcmf3zd7XVMwIPUmAginrsQxcquMBfVnXjBbgWHEBggj9M8yjlySkcX-fk~FeLN30OlDk5ARrVFdB8swpAbboHZ30j42URaiqZymz~sMWfE~wDqKOdhojQ__" alt="Trend 2">
+                    <span class="trend-tag">SUMMER</span>
+                </div>
+                <div class="trend-content">
+                    <div class="trend-author" style="display: flex; justify-content: space-between; align-items: center; padding: 0 0px;">
+                        <div style="display: flex; align-items: center;">
+                            <img src="https://s3-alpha-sig.figma.com/img/1030/6da3/556f5faa4a8978e04d8cbef4c370209c?Expires=1740960000&Key-Pair-Id=APKAQ4GOSFWCW27IBOMQ&Signature=L9ZkeZeXF2ca5JwUlopaYeS8QX9MOocPi7Ms-01fP0arT3Y-9U2M~yvubpyomkSJ3GbZd1kl~N8Ex1vT9542gDNNJ0bwzibQ6ZGjxioZaOrJ6kdVsmkhYBmK0kF1m7XxaHXTH0PDWN-JuVNSZaFglBxwI7oU0Vka-rSHVMKKJHMf97eF0ihPRkvnISCtHIzhOWjLwn5mvGFuqkfQS8YsBE0xB~GbWmjIW8MShNiX9CWoVPDrlYvd9qDwISDQGpQNM132jQf6lda-DilSIGKncGNmQ2ljeuKpUTq78GXJzAjZMGk08YmTGcd-hyPH6RIo-yUDnTP0tzgphQyAuo7QzQ__" alt="Author">
+                            <span style="padding: 0 10px;">Mallory Reyn</span>
+                        </div>
+                        <span>April 14th, 2023</span>
+                    </div>
+                    <h3>The summer 2023 lineup is finally here.</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur Pellentesque sit amet sapien fringilla, mattis mattis tellus. Nullam quis imperdiet augue. Vestibulum.</p>
+                    <a href="#" class="read-more">→ READ MORE</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <style>
+        .trending {
+            text-align: center;
+            padding: 20px;
+        }
+        .trending-container {
+            display: flex;
+            gap: 15px;
+            justify-content: center;
+        }
+        .trend-item {
+            background: #fff;
+            border-radius: 12px;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+            max-width: 400px;
+            text-align: left;
+        }
+        .trend-image {
+            position: relative;
+            object-fit: cover;
+        }
+        .trend-image img {
+            width: 565.89px;
+            height: 278.09px;
+            object-fit: cover;
+        }
+        .trend-tag {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            background: black;
+            color: white;
+            padding: 5px 10px;
+            border-radius: 5px;
+            font-size: 12px;
+            font-weight: bold;
+        }
+        .trend-content {
+            padding: 20px;
+        }
+        .trend-author {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            font-size: 14px;
+            color: #777;
+            margin-bottom: 10px;
+        }
+        .trend-author img {
+            width: 30px;
+            height: 30px;
+            border-radius: 50%;
+            object-fit: cover;
+        }
+        h3 {
+            font-size: 18px;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+        .read-more {
+            display: inline-block;
+            margin-top: 10px;
+            text-decoration: none;
+            color: #00A896;
+            font-weight: bold;
+            font-size: 14px;
+        }
+    </style>
+</body>
+</html>
